@@ -1,0 +1,23 @@
+.section__contacto {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "header"
+    "contacto"
+    "form"
+    "map"
+    "footer";
+}
+.form{
+    grid-area: form;
+}
+.contacto{
+    grid-area: contacto;
+}
+.map{
+    grid-area: map;
+}
+.contacto p{
+    color:black;
+    text-align: center;
+}

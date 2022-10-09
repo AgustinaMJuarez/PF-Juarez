@@ -1,0 +1,27 @@
+.main__index{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "header"
+    "background__inicio"
+    "section__index"
+    "aside"
+    "footer";
+}
+.aside{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+}
+.section__index{
+    grid-area: section__index;
+}
+.img__aside{
+    height:300px;
+    width:300px;
+    margin-top: 30px;
+    
+}
+aside div{
+    padding: 10px;
+}

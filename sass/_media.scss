@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #E2DEDF;
+
+    @media (min-width:480px){
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        background-color: #E2DEDF;
+        }
+
+    @media (min-width: 768px){
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        background-color: #E2DEDF;
+    }
+
+    @media (min-width:1400px){
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        background-color: #E2DEDF;
+    }
+}
+
+.background__inicio{
+    background: rgb(17,28,177);
+    background: linear-gradient(0deg, rgba(17,28,177,1) 0%, rgba(3,200,201,1) 100%);
+    padding: 250px 0 250px 0;
+    background-size: cover;
+    grid-area: background__inicio;
+
+    @media (min-width: 1400px){
+        background-image: url(../img/inicioimagen.jpg);
+    }
+
+}
+
+.section__cards{
+    grid-area: section__cards;
+
+    @media (min-width:480px){
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width:768px){
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width:1400px){
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(4, 1fr);
+        overflow-x: hidden;
+    }
+}
+
+@mixin sizes($height,$widht) { 
+    height:$height;
+    width:$widht;
+}
+
+iframe{
+    @include sizes(300px,300px);
+
+    @media (min-width:480px){
+        @include sizes(300px,700px);
+    }
+
+    @media (min-width:1400px){
+        @include sizes(500px,900px);
+        padding: 10px;
+    }
+}

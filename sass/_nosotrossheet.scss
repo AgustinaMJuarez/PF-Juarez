@@ -1,0 +1,14 @@
+.section__nosotros{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "header"
+    "nosotros"
+    "footer";
+}
+.p__nosotros{
+    grid-area: nosotros;
+}
+.p__nosotros p {
+    color: black;
+}

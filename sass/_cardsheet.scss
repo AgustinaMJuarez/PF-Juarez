@@ -1,0 +1,25 @@
+.main__cards{
+    display: grid;
+    grid-template-columns:100%;
+    grid-template-areas: 
+    "header"
+    "titulo"
+    "section__cards"
+    "footer";
+}
+
+.div__cards{
+    background-color: #66a2aa;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px #375658;
+}
+
+
+.img__tours,.img__destinos{
+    height: 200px;
+    width: 300px;
+}
+.div__titulo{
+    grid-area: titulo;
+}

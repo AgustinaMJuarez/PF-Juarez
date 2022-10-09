@@ -1,0 +1,31 @@
+.titulo__principal{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:larger;
+    padding: 5px;
+
+    @media (min-width:1400px) {
+        color: #1f635d;
+        font-weight: 800;
+    }
+}
+.titulos{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #375658;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 10px;
+    font-size:large;
+}
+.titulo__section{
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    color:#1f635d;
+}
+.subtitulo {
+    color:#375658;
+    text-align: center;
+}
