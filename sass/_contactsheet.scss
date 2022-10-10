@@ -13,11 +13,11 @@
 }
 .contacto{
     grid-area: contacto;
+    p{
+        color: black;
+        text-align: center;
+    }
 }
 .map{
     grid-area: map;
-}
-.contacto p{
-    color:black;
-    text-align: center;
 }

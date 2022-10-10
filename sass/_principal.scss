@@ -12,6 +12,10 @@
     grid-area: aside;
     display: flex;
     flex-direction: column;
+    
+    div{
+        padding: 10px;
+    }
 }
 .section__index{
     grid-area: section__index;
@@ -21,7 +25,4 @@
     width:300px;
     margin-top: 30px;
     
-}
-aside div{
-    padding: 10px;
 }
