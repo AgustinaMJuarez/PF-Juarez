@@ -4,7 +4,6 @@
     grid-template-areas: 
     "header"
     "background__inicio"
-    "section__index"
     "aside"
     "footer";
 }
@@ -17,9 +16,7 @@
         padding: 10px;
     }
 }
-.section__index{
-    grid-area: section__index;
-}
+
 .img__aside{
     height:300px;
     width:300px;
