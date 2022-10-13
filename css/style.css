@@ -20,10 +20,9 @@ p {
   text-align: justify;
 }
 
-div p {
-  color: rgb(255, 255, 255);
-}
-
+/* div p {
+    color: rgb(255, 255, 255);
+} */
 header {
   background-color: #287B86;
   padding: 10px;
@@ -41,6 +40,11 @@ a {
   color: white;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .icon {
   width: 30px;
   height: 30px;
@@ -55,7 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #E2DEDF;
+  background-color: #ffffff;
 }
 @media (min-width: 480px) {
   body {
@@ -64,7 +68,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     min-height: 100vh;
-    background-color: #E2DEDF;
+    background-color: #ffffff;
   }
 }
 @media (min-width: 768px) {
@@ -74,7 +78,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     min-height: 100vh;
-    background-color: #E2DEDF;
+    background-color: #ffffff;
   }
 }
 @media (min-width: 1400px) {
@@ -84,18 +88,18 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     min-height: 100vh;
-    background-color: #E2DEDF;
+    background-color: #ffffff;
   }
 }
 
 .background__inicio {
   background: rgb(17, 28, 177);
   background: linear-gradient(0deg, rgb(17, 28, 177) 0%, rgb(3, 200, 201) 100%);
-  padding: 250px 0 250px 0;
+  padding: 250px 0 150px 0;
   background-size: cover;
   grid-area: background__inicio;
 }
-@media (min-width: 1400px) {
+@media (min-width: 700px) {
   .background__inicio {
     background-image: url(../img/inicioimagen.jpg);
   }
@@ -177,12 +181,10 @@ iframe {
   text-align: center;
   font-size: larger;
   padding: 5px;
-}
-@media (min-width: 1400px) {
-  .titulo__principal {
-    color: #1f635d;
-    font-weight: 800;
-  }
+  /*    @media (min-width:700px) {
+          color: #1f635d;
+          font-weight: bolder;
+      } */
 }
 
 .titulos {
@@ -213,19 +215,24 @@ iframe {
 }
 
 .div__cards {
-  background-color: #66a2aa;
+  background-color: #91a9ac;
   margin: 20px;
   padding: 15px;
-  box-shadow: 5px 5px 10px #375658;
 }
 
 .img__tours, .img__destinos {
   height: 200px;
-  width: 300px;
+  width: 350px;
 }
 
 .div__titulo {
   grid-area: titulo;
+}
+
+.card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover, .card-5:hover, .card-6:hover, .card-7:hover, .card-8:hover, .card-9:hover {
+  box-shadow: 5px 5px 5px 5px grey;
+  transform: translateY(-30px);
+  transition: all 0.5s;
 }
 
 .section__contacto {

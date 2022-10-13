@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #E2DEDF;
+    background-color: #ffffff;
 
     @media (min-width:480px){
         text-align: center;
@@ -11,7 +11,7 @@ body{
         flex-direction: column;
         flex-wrap: wrap;
         min-height: 100vh;
-        background-color: #E2DEDF;
+        background-color: #ffffff;
         }
 
     @media (min-width: 768px){
@@ -20,7 +20,7 @@ body{
         flex-direction: column;
         flex-wrap: wrap;
         min-height: 100vh;
-        background-color: #E2DEDF;
+        background-color: #ffffff;
     }
 
     @media (min-width:1400px){
@@ -29,18 +29,18 @@ body{
         flex-direction: column;
         flex-wrap: wrap;
         min-height: 100vh;
-        background-color: #E2DEDF;
+        background-color: #ffffff;
     }
 }
 
 .background__inicio{
     background: rgb(17,28,177);
     background: linear-gradient(0deg, rgba(17,28,177,1) 0%, rgba(3,200,201,1) 100%);
-    padding: 250px 0 250px 0;
+    padding: 250px 0 150px 0;
     background-size: cover;
     grid-area: background__inicio;
 
-    @media (min-width: 1400px){
+    @media (min-width: 700px){
         background-image: url(../img/inicioimagen.jpg);
     }
 
@@ -86,3 +86,4 @@ iframe{
         padding: 10px;
     }
 }
+

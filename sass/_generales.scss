@@ -21,9 +21,9 @@ p {
     color: black;
     text-align: justify;
 }
-div p {
+/* div p {
     color: rgb(255, 255, 255);
-}
+} */
 header{
     background-color: $aqua;
     padding: 10px;
@@ -39,6 +39,11 @@ header{
 a {
     text-decoration: none;
     color: white;
+}
+
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .icon {
