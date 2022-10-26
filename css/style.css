@@ -169,7 +169,7 @@ iframe {
 }
 
 .div__principal {
-  margin: 15px;
+  margin-bottom: 15px;
 }
 
 .form {
@@ -316,8 +316,8 @@ iframe {
 .div__nosotros div {
   margin: 15px;
   background-color: #E2DEDF;
-  height: 325px;
-  width: 325px;
+  height: 340px;
+  width: 340px;
   padding: 15px;
   box-shadow: 3px 3px 3px 3px grey;
 }
