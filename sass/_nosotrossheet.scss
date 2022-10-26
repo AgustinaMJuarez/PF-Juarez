@@ -6,9 +6,46 @@
     "nosotros"
     "footer";
 }
-.p__nosotros{
+.div__nosotros{
     grid-area: nosotros;
-    p{
-        color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    @media (min-width:1200px){
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-areas: 
+        "box-1 box-2 box-3"
+        "box-4 box-5 box-6";
+    }
+    div{
+        margin: 15px;
+        background-color:#E2DEDF;
+        height: 325px;
+        width: 325px;
+        padding: 15px;
+        box-shadow: 3px 3px 3px 3px grey;
     }
 }
+
+.box-1{
+    grid-area: box-1;
+}
+.box-2{
+    grid-area: box-2;
+}
+.box-3{
+    grid-area: box-3;
+}
+.box-4{
+    grid-area: box-4;
+}
+.box-5{
+    grid-area: box-5;
+}
+.box-6{
+    grid-area: box-6;
+}
+
+

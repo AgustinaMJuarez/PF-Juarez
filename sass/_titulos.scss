@@ -8,20 +8,34 @@
 
 }
 .titulos{
-    font-family: 'Lexend Deca', sans-serif;
-    color: #375658;
+    font-family: 'Merriweather', serif;
+    color: #287B86;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 5px;
-    padding-top: 10px;
-    font-size:large;
+    margin-top: 10px;
+    font-size:xx-large;
+    font-weight: 600;
 }
 .titulo__section{
-    font-family: 'Lexend Deca', sans-serif;
-    text-transform: uppercase;
-    color:#1f635d;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color:#000000;
 }
 .subtitulo {
     color:#375658;
     text-align: center;
+}
+
+
+.titulo__form{
+    color:white;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size:larger;
+}
+
+.titulo__form:hover{
+    color:#222F2F;
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;500&family=Poppins&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -90,15 +91,16 @@ body {
 }
 
 .background__inicio {
-  background: rgb(17, 28, 177);
-  background: linear-gradient(0deg, rgb(17, 28, 177) 0%, rgb(3, 200, 201) 100%);
+  background-image: url(../img/backgroundImagexs.jpg);
   padding: 250px 0 150px 0;
   background-size: cover;
   grid-area: background__inicio;
 }
 @media (min-width: 700px) {
   .background__inicio {
-    background-image: url(../img/inicioimagen.jpg);
+    background-image: url(../img/backgroundImage.jpg);
+    background-size: cover;
+    grid-area: background__inicio;
   }
 }
 
@@ -129,13 +131,12 @@ body {
 }
 
 iframe {
-  height: 300px;
-  width: 300px;
+  height: 280px;
+  width: 280px;
 }
 @media (min-width: 480px) {
   iframe {
-    height: 300px;
-    width: 700px;
+    width: 100vh;
   }
 }
 @media (min-width: 1400px) {
@@ -167,6 +168,16 @@ iframe {
   margin-top: 30px;
 }
 
+.div__principal {
+  margin: 15px;
+}
+
+.form {
+  background-color: #ACC3C2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .titulo__principal {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -177,24 +188,37 @@ iframe {
 }
 
 .titulos {
-  font-family: "Lexend Deca", sans-serif;
-  color: #375658;
+  font-family: "Merriweather", serif;
+  color: #287B86;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 5px;
-  padding-top: 10px;
-  font-size: large;
+  margin-top: 10px;
+  font-size: xx-large;
+  font-weight: 600;
 }
 
 .titulo__section {
-  font-family: "Lexend Deca", sans-serif;
-  text-transform: uppercase;
-  color: #1f635d;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: #000000;
 }
 
 .subtitulo {
   color: #375658;
   text-align: center;
+}
+
+.titulo__form {
+  color: white;
+  font-family: "Merriweather", serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: larger;
+}
+
+.titulo__form:hover {
+  color: #222F2F;
 }
 
 .main__cards {
@@ -203,15 +227,21 @@ iframe {
   grid-template-areas: "header" "titulo" "section__cards" "footer";
 }
 
+.section__cards {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .div__cards {
-  background-color: #91a9ac;
-  margin: 20px;
+  background-color: #E2DEDF;
+  margin: 35px 10px 10px 10px;
+}
+.div__cards div {
   padding: 15px;
 }
 
 .img__tours, .img__destinos {
-  height: 200px;
-  width: 350px;
+  width: 100%;
 }
 
 .div__titulo {
@@ -230,16 +260,33 @@ iframe {
   grid-template-areas: "header" "contacto" "form" "map" "footer";
 }
 
-.form {
+.form__contact {
   grid-area: form;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #ACC3C2;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
 }
 
 .contacto {
   grid-area: contacto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .contacto p {
   color: black;
   text-align: center;
+}
+.contacto div {
+  margin: 15px;
+  background-color: #E2DEDF;
+  height: 250px;
+  width: 250px;
+  padding: 15px;
+  box-shadow: 3px 3px 3px 3px grey;
 }
 
 .map {
@@ -252,9 +299,49 @@ iframe {
   grid-template-areas: "header" "nosotros" "footer";
 }
 
-.p__nosotros {
+.div__nosotros {
   grid-area: nosotros;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.p__nosotros p {
-  color: black;
+@media (min-width: 1200px) {
+  .div__nosotros {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-areas: "box-1 box-2 box-3" "box-4 box-5 box-6";
+  }
+}
+.div__nosotros div {
+  margin: 15px;
+  background-color: #E2DEDF;
+  height: 325px;
+  width: 325px;
+  padding: 15px;
+  box-shadow: 3px 3px 3px 3px grey;
+}
+
+.box-1 {
+  grid-area: box-1;
+}
+
+.box-2 {
+  grid-area: box-2;
+}
+
+.box-3 {
+  grid-area: box-3;
+}
+
+.box-4 {
+  grid-area: box-4;
+}
+
+.box-5 {
+  grid-area: box-5;
+}
+
+.box-6 {
+  grid-area: box-6;
 }/*# sourceMappingURL=style.css.map */

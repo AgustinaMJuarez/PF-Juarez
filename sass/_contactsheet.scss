@@ -8,15 +8,33 @@
     "map"
     "footer";
 }
-.form{
+.form__contact{
     grid-area: form;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #ACC3C2;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
 }
 .contacto{
     grid-area: contacto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     p{
         color: black;
         text-align: center;
     }
+    div{
+        margin: 15px;
+        background-color:#E2DEDF;
+        height: 250px;
+        width: 250px;
+        padding: 15px;
+        box-shadow: 3px 3px 3px 3px grey;
+    }
+
 }
 .map{
     grid-area: map;
