@@ -91,14 +91,14 @@ body {
 }
 
 .background__inicio {
-  background-image: url(../img/backgroundImagexs.jpg);
+  background-image: url(../img/backgroundImagexsc.jpg);
   padding: 250px 0 150px 0;
   background-size: cover;
   grid-area: background__inicio;
 }
 @media (min-width: 700px) {
   .background__inicio {
-    background-image: url(../img/backgroundImage.jpg);
+    background-image: url(../img/backgroundImagec.jpg);
     background-size: cover;
     grid-area: background__inicio;
   }
