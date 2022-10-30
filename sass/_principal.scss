@@ -11,9 +11,10 @@
     grid-area: aside;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
     
     div{
-        padding: 10px;
+        padding-bottom: 20px;
     }
 }
 
@@ -24,12 +25,15 @@
     
 }
 
-.div__principal{
-    margin-bottom: 15px;
+.div__form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .form{
     background-color: #ACC3C2;
-    padding: 20px;
+    padding: 20px 10px 0 10px;
     border-radius: 10px;
+    margin-bottom: 25px;
 }

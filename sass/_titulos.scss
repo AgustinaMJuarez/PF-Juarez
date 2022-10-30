@@ -3,24 +3,25 @@
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size:larger;
+    font-size:x-large;
     padding: 5px;
+    text-shadow:3px 3px 3px black ;
 
 }
 .titulos{
-    font-family: 'Merriweather', serif;
+    font-family: 'Noto Sans', sans-serif;
     color: #287B86;
-    text-transform: uppercase;
     text-align: center;
     letter-spacing: 5px;
-    margin-top: 10px;
+    margin-top: 25px;
     font-size:xx-large;
     font-weight: 600;
 }
 .titulo__section{
-    font-family: 'Merriweather', serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
     color:#000000;
+    font-size: larger;
 }
 .subtitulo {
     color:#375658;
@@ -30,10 +31,11 @@
 
 .titulo__form{
     color:white;
-    font-family: 'Merriweather', serif;
+    font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size:larger;
+    padding-bottom: 15px;
 }
 
 .titulo__form:hover{

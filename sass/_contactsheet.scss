@@ -4,8 +4,8 @@
     grid-template-areas: 
     "header"
     "contacto"
-    "form"
     "map"
+    "form"
     "footer";
 }
 .form__contact{
@@ -22,17 +22,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 50px;
     p{
         color: black;
         text-align: center;
     }
     div{
         margin: 15px;
-        background-color:#E2DEDF;
-        height: 250px;
-        width: 250px;
         padding: 15px;
-        box-shadow: 3px 3px 3px 3px grey;
     }
 
 }

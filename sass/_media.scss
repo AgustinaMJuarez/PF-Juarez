@@ -83,7 +83,7 @@ iframe{
     }
 
     @media (min-width:1400px){
-        @include sizes(500px,900px);
+        @include sizes(300px,900px);
         padding: 10px;
     }
 }
